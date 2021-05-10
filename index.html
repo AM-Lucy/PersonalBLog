@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Personal Blog</title>
+</head>
+
+<body>
+    <header class="main_header">
+        <div class="d-flex justify-content-center align-items-center flex-column py-5">
+            <h1 class="main_heading">ANIMATION WORLD</h1>
+            <p class="main_heading__para">Welcome to my <span class="text-captialize bg-dark
+                text-white py-2 px-3">World of Blogs</span></p>
+        </div>
+        <!--the main images-->
+        <div class="main_header__div d-flex align-items-start justify-content-center pl-5 flex-column shadow">
+            <p>ANIMATION WORLD</p>
+            <h2 class="animateWord">
+                <span>Adventure is</span>
+                <div>
+                    <ul class="flip">
+                        <li>Awaited</li>
+                        <li>Out</li>
+                        <li>There</li>
+                        <li>WorthWhile</li>
+                    </ul>
+                </div>
+            </h2>
+            <button class="text-uppercase">Believe in</button>
+        </div>
+    </header>
+    <!--header ends-->
+
+    <!--two sides div-->
+    <div class="container-fluid">
+        <div class="row">
+            <!--to get the right and left side div-->
+            <div class="col-xl-10 col-lg-10 col-md-11 mx-auto my-5">
+                <div class="row gx-5 mx-sm-auto">
+                    <!--to get the left side of  the div space-->
+                    <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                    </div>
+                    <!--to get the right side of the div space-->
+                    <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                        <div class="row gy-5">
+                            <!--our first post code-->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1>BEST ANIMATED MOVIES </h1>
+                                    <div class="blog_title">
+                                        <p><span class="font-weight-bold">Subject Description,</span> 6th
+                                            May,2021</p>
+                                        <figure class="right_side__img mb-5">
+                                            <img src="https://media.fromthegrapevine.com/assets/images/2017/5/moana-wave.jpg.824x0_q71_crop-scale.jpg"
+                                                class="img-fluid shadow">
+                                        </figure>
+                                        <p><span class="fw-bold">WORLD OF ANIMATION:</span>
+                                            Some call it “Animation Domination”.The growth of mainstream animation has
+                                            changed
+                                            the landscape of entertainment.With new technology, animation studios can
+                                            produce
+                                            more and more high-quality digital options.
+                                            From children’s movies like ‘Frozen’ to more adult films, like ‘Avatar’,
+                                            animation
+                                            provides something for everyone.
+                                            Inside Out—2015, hands down. No surprise that Pixar has somewhat of a
+                                            monopoly
+                                            on
+                                            great animated works. It portrays a little girl’s emotions. Through the
+                                            personification of these various emotions, Pixar has created an effective
+                                            and
+                                            intuitive way of communicating concepts that we experience every day.
+                                            By ‘best’, let’s use the metric of highest-rated. In that case, the
+                                            best-animated
+                                            movie ever is Toy Story 2, released in 1999. It beats out classics like Snow
+                                            White,
+                                            with a Rotten Tomatoes rating of 100%.
+                                        </p>
+                                        <div class="d-flex justify-content-between left_div_btns">
+                                            <div>
+                                                <button class="left_div__like" id="like_btn">
+                                                    <i class="fas fa-heart"> LIKE</i>
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <button class="left_div__reply" onclick="reply('reply1')">
+                                                    REPLIES <badge class="bg-white text-dark p-2">1</badge>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="replies" id="reply1">
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                    py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> Lucy,</span>6th May,2021,6:30PM
+                                                    </p>
+                                                    <p>I LOVED IT....</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!--our second post code-->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1>BEST ANIMATED MOVIES </h1>
+                                    <div class="blog_title">
+                                        <p><span class="font-weight-bold">Subject Description,</span> 6th
+                                            May,2021</p>
+                                        <figure class="right_side__img mb-5">
+                                            <img src="https://ww2.kqed.org/app/uploads/sites/23/2015/06/sadness-fear-anger-disgust-joy-2015-disneypixar-5796ad576af908d8514f0773a1934a27bd937b22-800x600.jpg"
+                                                class="img-fluid shadow">
+                                        </figure>
+                                        <p><span class="fw-bold">INSIDE-OUT:</span>
+                                            Inside Out is a film about an 11 year old girl named Riley who moves across
+                                            the
+                                            country from Minnesota to San Francisco with her parents. Riley experiences
+                                            a
+                                            transformation in her mind and in who she is as a person as she tries to
+                                            adjust
+                                            to her new life in San Francisco and to the difficult process of growing up.
+                                            The
+                                            viewer follows Riley’s five emotions, Joy, Sadness, Anger, Fear, and
+                                            Disgust, on
+                                            a journey in her mind to help her through her transition to adolescence, and
+                                            to
+                                            assist her in making what they think are the right decisions.
+                                            By ‘best’, let’s use the metric of highest-rated. In that case, the
+                                            best-animated
+                                            movie ever is Toy Story 2, released in 1999. It beats out classics like Snow
+                                            White,
+                                            with a Rotten Tomatoes rating of 100%.
+                                        </p>
+                                        <div class="d-flex justify-content-between left_div_btns">
+                                            <div>
+                                                <button class="left_div__like" id="like_btn">
+                                                    <i class="fas fa-heart"> LIKE</i>
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <button class="left_div__reply" onclick="reply('reply2')">
+                                                    REPLIES <badge class="bg-white text-dark p-2">2</badge>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="replies" id="reply2">
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                                                                py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> Lucy,</span>6th May,2021,6:30PM
+                                                    </p>
+                                                    <p>I LOVED IT....</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                                                                py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> SweatPink,</span>6th
+                                                        May,2021,6:30PM
+                                                    </p>
+                                                    <p>GOOD GOING....</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!--our third post code-->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1>BEST ANIMATED MOVIES </h1>
+                                    <div class="blog_title">
+                                        <p><span class="font-weight-bold">Subject Description,</span> 6th
+                                            May,2021</p>
+                                        <figure class="right_side__img mb-5">
+                                            <img src="https://www.filmykeeday.com/wp-content/uploads/2014/02/Ratatouille-best-animated-movies-of-all-time.jpg"
+                                                class="img-fluid shadow">
+                                        </figure>
+                                        <p><span class="fw-bold">RATATOUILLE:</span>
+                                            A lot of animated movies have inspired sequels, notably "Shrek," but Brad
+                                            Bird's
+                                            "Ratatouille" is the first one that made me positively desire one. Remy, the
+                                            earnest little rat who is its hero, is such a lovable, determined, gifted
+                                            rodent
+                                            that I want to know happens to him next, now that he has conquered the
+                                            summit of
+                                            French cuisine. I think running for office might not be beyond his reach,
+                                            and
+                                            there's certainly something de Gaullean about his snout.
+                                            By ‘best’, let’s use the metric of highest-rated. In that case, the
+                                            best-animated
+                                            movie ever is Toy Story 2, released in 1999. It beats out classics like Snow
+                                            White,
+                                            with a Rotten Tomatoes rating of 100%.
+                                        </p>
+                                        <div class="d-flex justify-content-between left_div_btns">
+                                            <div>
+                                                <button class="left_div__like" id="like_btn">
+                                                    <i class="fas fa-heart"> LIKE</i>
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <button class="left_div__reply" onclick="reply('reply3')">
+                                                    REPLIES <badge class="bg-white text-dark p-2">4</badge>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="replies" id="reply3">
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                        py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> Lucy,</span>6th May,2021,6:30PM
+                                                    </p>
+                                                    <p>I LOVED IT....</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                                py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> Lucy,</span>6th May,2021,6:30PM
+                                                    </p>
+                                                    <p>I LOVED IT....</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                                        py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> SweatPink,</span>6th
+                                                        May,2021,6:30PM
+                                                    </p>
+                                                    <p>Good One....</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                                                py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> Anynomous,</span>6th
+                                                        May,2021,6:30PM
+                                                    </p>
+                                                    <p>Loved your work,Keep moving...</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!--our fourth post code-->
+                            <div class="col-12 card p-4 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1>BEST ANIMATED MOVIES </h1>
+                                    <div class="blog_title">
+                                        <p><span class="font-weight-bold">Subject Description,</span> 6th
+                                            May,2021</p>
+                                        <figure class="right_side__img mb-5">
+                                            <img src="https://static2.srcdn.com/wordpress/wp-content/uploads/2019/09/maxresdefault-Cropped.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5"
+                                                class="img-fluid shadow">
+                                        </figure>
+                                        <p><span class="fw-bold">UP:</span>
+                                            "Up" is a wonderful film, with characters who are as believable as any
+                                            characters can be who spend much of their time floating above the rain
+                                            forests
+                                            of Venezuela. They have tempers, problems and obsessions. They are cute and
+                                            goofy, but they aren't cute in the treacly way of little cartoon animals.
+                                            They're cute in the human way of the animation master Hayao Miyazaki. Two of
+                                            the
+                                            three central characters are cranky old men, which is a wonder in this
+                                            youth-obsessed era. "Up" doesn't think all heroes must be young or sweet,
+                                            although the third important character is a nervy kid.
+
+                                            This is another masterwork from Pixar, which is leading the charge in modern
+                                            animation. The movie was directed by Pete Docter, who also directed
+                                            "Monsters,
+                                            Inc.," wrote "Toy Story" and was a co-writer on "WALL-E" before leaving to
+                                            devote full time to this project. So Docter's one of the leading artists of
+                                            this
+                                            latest renaissance of animation.
+                                            By ‘best’, let’s use the metric of highest-rated. In that case, the
+                                            best-animated
+                                            movie ever is Toy Story 2, released in 1999. It beats out classics like Snow
+                                            White,
+                                            with a Rotten Tomatoes rating of 100%.
+                                        </p>
+                                        <div class="d-flex justify-content-between left_div_btns">
+                                            <div>
+                                                <button class="left_div__like" id="like_btn">
+                                                    <i class="fas fa-heart"> LIKE</i>
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <button class="left_div__reply" onclick="reply('reply4')">
+                                                    REPLIES <badge class="bg-white text-dark p-2">5</badge>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="replies" id="reply4">
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                                                                                            py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> Lucy,</span>6th May,2021,6:30PM
+                                                    </p>
+                                                    <p>I LOVED IT....</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                                                                                        py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> Lucy,</span>6th May,2021,6:30PM
+                                                    </p>
+                                                    <p>I LOVED IT....</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                                                                                py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> Lucy,</span>6th May,2021,6:30PM
+                                                    </p>
+                                                    <p>I LOVED IT....</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                                                                            py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> SweatPink,</span>6th
+                                                        May,2021,6:30PM
+                                                    </p>
+                                                    <p>Worthy One for all ages..</p>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-start flex-row align-self-center card reply-card
+                                                                                        py-3">
+                                                <div class="reply_img mx-2 align-items-center">
+                                                    <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-512.png"
+                                                        style="width: 50px; height: 50px;" />
+                                                </div>
+                                                <div class="reply_text__left">
+                                                    <p class="blog_title">
+                                                        <span class="font-weight-bold"> Anonymous,</span>6th
+                                                        May,2021,6:30PM
+                                                    </p>
+                                                    <p>GOOD JOB!!!</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--to get the right side of the div space-->
+                    <div class="col-lg-3 col-md-7 col-11 justify-content-end m-lg-0 m-auto">
+                        <div class="row gy-5 left_div_blog">
+                            <!--about me part-->
+                            <div class="col-12 about_me_div shadow">
+                                <p>ANKITA</p>
+                                <p>Exploring the universe of unknownment. Welcoming, my first
+                                    blog based on animated movies.I'll always reach to you
+                                    with new type of excitement.
+                                </p>
+                            </div>
+                            <!--popular posts-->
+                            <div class="popular_post">
+                                <div class="right_div__title py-4 pl-2">
+                                    <h2>Popular Posts</h2>
+                                </div>
+                                <div class="right_sub__div shadow">
+                                    <div class="row">
+                                        <div class="col-3 popular_post__img1 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Bill Gates</h3>
+                                            <p>CEO Microsoft</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular_post__img2 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Mark Zuckerberg</h3>
+                                            <p>Facebook</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular_post__img3 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Jeff Bezos</h3>
+                                            <p>AMAZON</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3 popular_post__img4 py-2 pl-2">
+
+                                        </div>
+                                        <div class="col-9">
+                                            <h3>Steve Jobs</h3>
+                                            <p>Apple</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--advertise part-->
+                            <div class="div_right_post">
+                                <div class="right_div__title py-4 pl-2">
+                                    <h2>Advertise</h2>
+                                </div>
+                            </div>
+                            <div class="right_sub__div">
+                                <div class="advertise_img bg-light shadow">
+                                    <p>ADS goes here</p>
+                                </div>
+                            </div>
+                            <!--tags part-->
+                            <div class="right_div_post">
+                                <div class="right_div__title py-4 pl-2">
+                                    <h2>Tags</h2>
+                                </div>
+                                <div class="tags_main right_sub__div">
+                                    <a href="#" class="badge shadow text-capitalize"> html </a>
+                                    <a href="#" class="badge shadow text-capitalize"> css </a>
+                                    <a href="#" class="badge shadow text-capitalize"> javascript </a>
+                                    <a href="#" class="badge shadow text-capitalize"> bootstrap </a>
+                                    <a href="#" class="badge shadow text-capitalize"> react </a>
+                                    <a href="#" class="badge shadow text-capitalize"> vue </a>
+                                    <a href="#" class="badge shadow text-capitalize"> python </a>
+                                    <a href="#" class="badge shadow text-capitalize"> sql </a>
+                                    <a href="#" class="badge shadow text-capitalize"> java </a>
+                                </div>
+                            </div>
+                            <!--inspiration-->
+                            <div class="right_div_post">
+                                <div class="right_div__title py-4 pl-2">
+                                    <h2>Inspiration</h2>
+                                </div>
+                                <div class="right_sub__div">
+                                    <div class="row gx-3">
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://i.insider.com/5e1364ad954bda111b2edf39?width=1000&format=jpeg&auto=webp"
+                                                    class="img-fluid shadow" alt="img1">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://img.buzzfeed.com/buzzfeed-static/static/2020-12/23/14/campaign_images/92a0d962fe43/the-25-best-animated-movies-currently-on-netflix-2-9505-1608732944-18_dblbig.jpg?resize=1200:*"
+                                                    class="img-fluid shadow" alt="img1">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://www.boomuk.net/images/toystory.jpg" 
+                                                    class="img-fluid shadow" alt="img1">
+                                            </figure>
+                                        </div>
+                                        <div class="col-6">
+                                            <figure>
+                                                <img src="https://buddybits.com/wp-content/uploads/2017/11/15-Animated-Movies-That-Will-Cheer-You-Up-1280x720.jpg"
+                                                    class="img-fluid shadow" alt="img1">
+                                            </figure>
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--follow me-->
+                            <div class="right_div_post">
+                                <div class="right_div__title py-4 pl-2">
+                                    <h2>Follow Me</h2>
+                                </div>
+                                <div class="right_sub__div d-flex justify-content-around">
+                                    <a href="#"><i class="fab fa-3x fa-facebook-square "></i></a>
+                                    <a href="#"><i class="fab fa-instagram fa-3x"></i></a>
+                                    <a href="#"><i class="fab fa-github-square fa-3x"></i></a>
+                                    <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a>
+                                    <a href="#"><i class="fab fa-youtube-square fa-3x"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin fa-3x"></i></a>
+                                </div>
+                            </div>
+                            <!--subscribe newsletter-->
+                            <div class="right_div_post">
+                                <div class="right_div__title py-4 pl-2">
+                                    <h2>Subscribe</h2>
+                                </div>
+                                <div class="right_sub__div">
+                                    <form>
+                                        <div class="mb-3">
+                                          <label for="exampleInputEmail1" class="form-label">Enter your email below and get notified on the lastest blogs.</label>
+                                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=" name@xyz.com ">
+                                        </div>
+                                      
+                                        <button type="submit" class="subs_btn d-block ">Submit</button>
+                                      </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="text-center py-4 bg-light">Designed By @Ankita Maharana </p>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        const reply = (res) => {
+            var res = document.getElementById(res);
+            console.log(res);
+            if (res.className == "replies") {
+                res.className = "thapa_show";
+            } else if (res.className == "thapa_show") {
+                res.className = "replies";
+            }
+        }
+
+
+        //like button js  
+        const like = document.getElementById('like_btn')
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = " /\ Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = " Like ";
+        }
+
+        var clickCount = 0;
+        like.addEventListener('click', function () {
+            clickCount++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function () {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+    </script>
+
+
+
+
+</body>
+
+</html>
